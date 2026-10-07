@@ -1,0 +1,21 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Safety net — never commit raw engagement data / secrets by accident.
+# (Curated writeups live in each box's README/exploits; raw loot does not.)
+*.ovpn
+*.pcap
+*.pcapng
+*.kirbi
+*.ccache
+id_rsa
+id_ed25519
+id_rsa*
+id_ed25519*
+*.key
+*.pem
+*_history
+.env
